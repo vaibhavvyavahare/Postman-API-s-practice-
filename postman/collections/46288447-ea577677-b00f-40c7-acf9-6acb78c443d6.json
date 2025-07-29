@@ -94,7 +94,16 @@
 			},
 			"request": {
 				"method": "POST",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/books",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"books"
+					]
+				}
 			},
 			"response": []
 		}

@@ -88,6 +88,21 @@
 		},
 		{
 			"name": "add book",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "8b20f4f9-d506-4335-9072-10484901a73a",
+						"exec": [
+							"// printing on console\r",
+							"\r",
+							"console.log(pm.response.json());"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"id": "46288447-f7d9b8d0-1b4b-4eeb-9a30-6f6b3f1bfd5a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true

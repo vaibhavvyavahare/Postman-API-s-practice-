@@ -205,6 +205,21 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "skillcheck",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "student-expert",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [],
 				"body": {
@@ -217,11 +232,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://postman-echo.com/post?movieName=Dangal",
-					"protocol": "https",
+					"raw": "{{skillcheckBaseUrl}}/post?movieName=Dangal",
 					"host": [
-						"postman-echo",
-						"com"
+						"{{skillcheckBaseUrl}}"
 					],
 					"path": [
 						"post"
@@ -229,7 +242,8 @@
 					"query": [
 						{
 							"key": "movieName",
-							"value": "Dangal"
+							"value": "Dangal",
+							"description": "fav movie"
 						}
 					]
 				}

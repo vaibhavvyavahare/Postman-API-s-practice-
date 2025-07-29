@@ -139,7 +139,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",

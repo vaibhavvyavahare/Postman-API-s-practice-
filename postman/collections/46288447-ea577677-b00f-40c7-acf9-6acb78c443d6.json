@@ -285,6 +285,11 @@
 			"key": "baseUrl",
 			"value": "https://library-api.postmanlabs.com",
 			"type": "default"
+		},
+		{
+			"key": "skillcheckBaseUrl",
+			"value": "https://postman-echo.com",
+			"type": "default"
 		}
 	]
 }

@@ -200,6 +200,20 @@
 		},
 		{
 			"name": "skill check",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3b7f21b2-1196-4fb7-a495-d3b258f8a488",
+						"exec": [
+							"const favA= pm.collectionVariables.get(\"actorName\")\r",
+							"pm.collectionVariables.set(\"favoriteActor\" ,favA)"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"id": "46288447-de90707e-3b7b-472b-b5df-402752ff3b54",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true

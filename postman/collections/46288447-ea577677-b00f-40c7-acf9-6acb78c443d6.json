@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "get Books",
+			"name": "get books",
 			"id": "46288447-0ec7903e-ef05-4a05-8211-6f4d3bcd7afc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true

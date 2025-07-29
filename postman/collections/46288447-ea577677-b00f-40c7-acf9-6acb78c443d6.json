@@ -133,7 +133,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "check",
 			"id": "46288447-5d34a292-2cdd-4b09-a511-4a72423a4054",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true

@@ -227,7 +227,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "a3532495-fc4c-43cf-906e-8e77b86435aa",
+				"id": "3ea88ef3-3179-496b-a552-887cd68627bc",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -238,7 +238,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "d987fa0c-4fb2-4dfd-b91f-c7e1dc7e5c91",
+				"id": "d3ef7a83-dff3-48d1-a94e-2b38cc6443ff",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -250,7 +250,7 @@
 	"variable": [
 		{
 			"key": "baseUrl",
-			"value": "https://library-api.postmanlabs.com/books",
+			"value": "https://library-api.postmanlabs.com/",
 			"type": "default"
 		},
 		{

@@ -37,7 +37,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "ed97a0f4-05ea-4c63-9668-68d81a61ce29",
+				"id": "a77a4452-69c2-40ba-93c3-37a2131dfa23",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -48,7 +48,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "428af6f1-87a7-47f9-88ef-12ac401f8a05",
+				"id": "500bf4c6-dcdf-4e81-9005-75047b8bdb42",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -58,11 +58,6 @@
 		}
 	],
 	"variable": [
-		{
-			"key": "baseUrl",
-			"value": "https://library-api.postmanlabs.com",
-			"type": "default"
-		},
 		{
 			"key": "id",
 			"value": ""

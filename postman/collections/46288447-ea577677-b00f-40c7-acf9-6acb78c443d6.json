@@ -95,6 +95,15 @@
 			"request": {
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"The Story of Tanishq(Star)\",\r\n  \"author\": \"Vaibhav\",\r\n  \"genre\": \"non-fiction\",\r\n  \"yearPublished\": 2060\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "{{baseUrl}}/books",
 					"host": [

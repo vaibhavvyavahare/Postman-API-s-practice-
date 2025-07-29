@@ -61,6 +61,11 @@
 		{
 			"key": "id",
 			"value": ""
+		},
+		{
+			"key": "baseUrl",
+			"value": "https://library-api.postmanlabs.com",
+			"type": "default"
 		}
 	]
 }

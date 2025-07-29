@@ -4,7 +4,20 @@
 		"name": "Postman Library API v2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
-	"item": [],
+	"item": [
+		{
+			"name": "New Request",
+			"id": "46288447-7a1078de-ee98-47b8-8292-75f27d21018a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
 	"auth": {
 		"type": "apikey",
 		"apikey": [

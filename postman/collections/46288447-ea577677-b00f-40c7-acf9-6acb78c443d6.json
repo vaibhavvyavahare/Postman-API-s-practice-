@@ -15,18 +15,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/books?genre=fiction",
+					"raw": "{{baseUrl}}/books",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
 						"books"
-					],
-					"query": [
-						{
-							"key": "genre",
-							"value": "fiction"
-						}
 					]
 				}
 			},

@@ -169,6 +169,18 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "delete a book",
+			"id": "46288447-9e937d56-7969-4f3a-b0a0-1fabd290a06f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"auth": {

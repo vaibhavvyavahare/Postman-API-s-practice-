@@ -246,19 +246,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{skillcheckBaseUrl}}/post?movieName=Dangal",
+					"raw": "{{skillcheckBaseUrl}}/post",
 					"host": [
 						"{{skillcheckBaseUrl}}"
 					],
 					"path": [
 						"post"
-					],
-					"query": [
-						{
-							"key": "movieName",
-							"value": "Dangal",
-							"description": "fav movie"
-						}
 					]
 				}
 			},

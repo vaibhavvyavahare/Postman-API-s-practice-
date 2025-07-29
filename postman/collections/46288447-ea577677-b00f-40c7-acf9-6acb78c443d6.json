@@ -1,0 +1,261 @@
+{
+	"info": {
+		"_postman_id": "46288447-ea577677-b00f-40c7-acf9-6acb78c443d6",
+		"name": "Postman Library API v2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get Books",
+			"id": "46288447-0ec7903e-ef05-4a05-8211-6f4d3bcd7afc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://library-api.postmanlabs.com/books",
+					"protocol": "https",
+					"host": [
+						"library-api",
+						"postmanlabs",
+						"com"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "46288447-ed1e6431-996e-4a25-918f-45d0f1aeb9a6",
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/books/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"books",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "29cd820f-82f9-4b45-a7f4-0924111b5b89"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "220"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 28 Jul 2025 17:21:28 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "f6181822c21ec1202eb274ab9e17a72d"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 google"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"id\": \"29cd820f-82f9-4b45-a7f4-0924111b5b89\",\n    \"title\": \"Ficciones\",\n    \"author\": \"Jorge Luis Borges\",\n    \"genre\": \"fiction\",\n    \"yearPublished\": 1944,\n    \"checkedOut\": false,\n    \"isPermanentCollection\": true,\n    \"createdAt\": \"2022-03-30T00:54:52.606Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "post Books",
+			"id": "46288447-dcc3adf9-a83e-44b0-a285-3fdbfd9f6a35",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://library-api.postmanlabs.com/books",
+					"protocol": "https",
+					"host": [
+						"library-api",
+						"postmanlabs",
+						"com"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "46288447-b3e38977-5fb2-4c3a-8504-f6f6225e1445",
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/books/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"books",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "29cd820f-82f9-4b45-a7f4-0924111b5b89"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "220"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 28 Jul 2025 17:21:28 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Google Frontend"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "X-Cloud-Trace-Context",
+							"value": "f6181822c21ec1202eb274ab9e17a72d"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 google"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"id\": \"29cd820f-82f9-4b45-a7f4-0924111b5b89\",\n    \"title\": \"Ficciones\",\n    \"author\": \"Jorge Luis Borges\",\n    \"genre\": \"fiction\",\n    \"yearPublished\": 1944,\n    \"checkedOut\": false,\n    \"isPermanentCollection\": true,\n    \"createdAt\": \"2022-03-30T00:54:52.606Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "get fiction books",
+			"id": "46288447-136cf850-7233-4ceb-b2c0-5dc3fdd7cc65",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://library-api.postmanlabs.com/books",
+					"protocol": "https",
+					"host": [
+						"library-api",
+						"postmanlabs",
+						"com"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{vault:pass}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "api-key",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "ab089115-18fa-42b8-99b5-fed1f61933d3",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "44a7636e-bc28-4628-bd59-22e842649d81",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://library-api.postmanlabs.com",
+			"type": "default"
+		},
+		{
+			"key": "id",
+			"value": ""
+		}
+	]
+}

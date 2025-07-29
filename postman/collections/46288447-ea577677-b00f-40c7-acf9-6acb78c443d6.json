@@ -199,7 +199,7 @@
 			"response": []
 		},
 		{
-			"name": "skill test",
+			"name": "skill check",
 			"id": "46288447-de90707e-3b7b-472b-b5df-402752ff3b54",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true

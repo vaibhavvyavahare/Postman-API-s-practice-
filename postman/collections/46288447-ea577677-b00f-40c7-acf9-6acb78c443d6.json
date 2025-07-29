@@ -207,7 +207,7 @@
 						"id": "3b7f21b2-1196-4fb7-a495-d3b258f8a488",
 						"exec": [
 							"const favA= pm.collectionVariables.get(\"actorName\")\r",
-							"pm.collectionVariables.set(favoriteActor ,favA)"
+							"pm.collectionVariables.set(\"favoriteActor\" ,favA)"
 						],
 						"type": "text/javascript",
 						"packages": {}

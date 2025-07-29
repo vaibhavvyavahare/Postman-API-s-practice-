@@ -64,7 +64,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "get book by id",
 			"id": "46288447-adf343da-69ff-4b7f-a91d-1741daec4f78",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true

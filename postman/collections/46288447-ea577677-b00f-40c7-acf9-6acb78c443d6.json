@@ -94,9 +94,10 @@
 					"script": {
 						"id": "8b20f4f9-d506-4335-9072-10484901a73a",
 						"exec": [
-							"// printing on console\r",
-							"\r",
-							"console.log(pm.response.json());"
+							"// save the \"id\" value from the response to a variable named \"id\"\r",
+							"const id = pm.response.json().id\r",
+							"// save the id as a collection variable named \"id\"\r",
+							"pm.collectionVariables.set(\"id\", id)"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -112,7 +113,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"title\": \"The Story of Tanishq(Star)\",\r\n  \"author\": \"Vaibhav\",\r\n  \"genre\": \"non-fiction\",\r\n  \"yearPublished\": 2060\r\n}",
+					"raw": "{\r\n  \"title\": \"Artistic Stories\",\r\n  \"author\": \"Vaibhav\",\r\n  \"genre\": \"fiction\",\r\n  \"yearPublished\": 2028\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

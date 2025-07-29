@@ -224,7 +224,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\r\n\"movieName\":\"Tare Jamin Pan\",\r\n\"favActor\":\"Amir Khan\"\r\n\r\n}",
+					"raw": "{\r\n\r\n\"movieName\":\"Tare Jamin Pan\",\r\n\"actorName\":\"Amir Khan\"\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

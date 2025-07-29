@@ -270,7 +270,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "a77a4452-69c2-40ba-93c3-37a2131dfa23",
+				"id": "c31a61ba-af3d-4cd8-ab8e-2a5fd68ac056",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -281,7 +281,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "500bf4c6-dcdf-4e81-9005-75047b8bdb42",
+				"id": "bcd7dc01-6cad-4d79-aa08-8a2a7e3d4f73",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -304,6 +304,11 @@
 			"key": "skillcheckBaseUrl",
 			"value": "https://postman-echo.com",
 			"type": "default"
+		},
+		{
+			"key": "favoriteActor",
+			"value": "Dangal",
+			"type": "string"
 		}
 	]
 }
